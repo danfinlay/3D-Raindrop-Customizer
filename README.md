@@ -9,3 +9,5 @@ A script for [OpenSCAD](http://www.openscad.org/) optimized for performance on T
 It's secretly just a cosine wave on a sphere.
 
 ![cosine mesh](images/cos.png)
+
+Originally forked from the more linear [Raindrop by Twanne](http://www.thingiverse.com/thing:641626).

@@ -7,15 +7,17 @@ parameters:
 				or sets the entire object in the positive [x, y, z] quadrant
 */
 
-radius = 12; // Radius is pretty arbitrary.  I think it's in milimeters.
+// Radius in millimeters.
+radius = 30; // [1:100]
 
-height = 3; // Height is a multiple of the radius.
+// Height is a multiple of the radius.
+height = 2.8; // [2:20] 
 
-steps = 20;  // Steps are the number of cylinders to make up the upper pointy end.
+// Steps are the number of cylinders to make up the upper pointy end.
+steps = 20; // [2:50]
 
-PI = 3.14159;  // The mathematical constant
-
-loops = 1; // A silly bonus feature for revealing how the script works.
+// A silly bonus feature for revealing how the script works.
+loops = 1; // [0:4]
 
 raindrop3D( radius, height, steps, loops );
 

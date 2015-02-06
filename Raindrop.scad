@@ -17,7 +17,7 @@ height = 2.8; // [2:20]
 steps = 20; // [2:50]
 
 // Controls how many facets go around the curve.
-facets = 20 // [5:100]
+facets = 30; // [5:100]
 
 // A silly bonus feature for revealing how the script works.
 loops = 1; // [0:4]
@@ -32,7 +32,7 @@ module raindrop3D(radius, height, steps, loops, facets){
 		translate([0, 0, radius * height / steps * i])
 			cylinder(h = 1 / steps * height * radius, // This is fine.
 					r1 = (cos( 180 * i / steps )/2+0.5) * radius,
-					r2 = (cos( 180 * (i+1) / steps )/2+0.5) * radius
+					r2 = (cos( 180 * (i+1) / steps )/2+0.5) * radius,
           $fn = facets );
 	}
 

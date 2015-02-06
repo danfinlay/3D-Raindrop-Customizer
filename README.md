@@ -6,9 +6,9 @@ A script for [OpenSCAD](http://www.openscad.org/) optimized for performance on T
 
 You can view a live model in your browser [on Sketchfab](https://sketchfab.com/models/89d43bb71fff49029793ca7abcb60a53).
 
-![rendered drop](images/drop2.png)
-
 You can use the customizer [on Thingiverse](http://www.thingiverse.com/apps/customizer/run?thing_id=669233&code=933b32d3288807d0e7c8d93575f9a3fe).
+
+![rendered drop](images/drop2.png)
 
 ![sample drop](images/drop1.png)
 

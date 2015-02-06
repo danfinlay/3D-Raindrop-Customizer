@@ -1,6 +1,6 @@
 # 3D Raindrop Customizer
 
-## raindrop3D( radius, height, steps, loops );
+## raindrop3D( radius, height, steps, loops, facets );
 
 A script for [OpenSCAD](http://www.openscad.org/) optimized for performance on Thingiverse's [Customizer](customizer.makerbot.com).
 
